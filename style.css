@@ -1,0 +1,47 @@
+html, body {
+	margin: 0; padding: 0; height: 100%;
+	overflow: hidden;
+	background: #222;
+	font-family: Arial, sans-serif;
+	color: white;
+}
+
+nav#page-nav {
+	position: fixed;
+	top: 0; left: 0; right: 0;
+	height: 40px;
+	background: #111;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	z-index: 1000;
+	user-select: none;
+}
+
+#lock-btn {
+	position: absolute;
+	right: 10px;
+	cursor: pointer;
+	font-size: 18px;
+	user-select: none;
+}
+
+#pdf-container {
+	overflow-y: auto;    
+	overflow-x: hidden;     	
+	-webkit-overflow-scrolling: touch;
+	background: #333;
+	position: absolute;
+	top: 40px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+canvas {
+	display: block;
+	margin: 10px auto;
+	max-width: 100%;
+	height: auto;
+}
