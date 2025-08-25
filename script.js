@@ -1,4 +1,4 @@
-const url = './pdf/asdasdsad.pdf';
+const url = './pdf/Phantasy Star II.pdf';
 const container = document.getElementById('pdf-container');
 const navInfo = document.getElementById('page-info');
 const lockBtn = document.getElementById('lock-btn');
